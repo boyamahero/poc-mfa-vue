@@ -1,0 +1,51 @@
+{
+  "name": "egat-hr",
+  "version": "2.0.0",
+  "description": "Mobile Apllication For HR EGAT",
+  "productName": "EGAT HR",
+  "cordovaId": "org.cordova.hrapp.egat",
+  "author": "Thanakorn Jato <thanakorn.j@egat.co.th>; Siripen Baramee <siripen.b@egat.co.th>; Boonrit Boonlue <boonrit.b@egat.co.th>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "keycloak-js": "^4.8.3",
+    "vue": "^2.6.11",
+    "vue-auth-image": "0.0.3",
+    "vue-backtotop": "^1.4.12",
+    "vue-i18n": "^7.3.3",
+    "vue-lazyload": "^1.3.1",
+    "vue-scrollto": "^2.13.0",
+    "xlsx": "^0.16.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "quasar-cli": "^0.17.26",
+    "strip-ansi": "=3.0.1",
+    "symlink-webpack-plugin": "0.0.4",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
